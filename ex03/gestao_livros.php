@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Boletim Escolar</title>
+    <title>Estoque de Gestão de Livros</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
 
     <?php
         $livros = ["Dom Casmurro", "O pequeno príncipe", "1984", "A moreninha", "O Guarani"];
-        
+
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $novoLivro = trim($_POST["novoLivro"]);
             if(!empty($novoLivro)) {

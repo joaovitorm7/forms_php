@@ -23,5 +23,6 @@
         <?php endfor; ?>
             <input type="submit" value="Cadastrar Produtos">
     </form>
+    <a href="http://localhost/forms/">Voltar para a página inicial</a>
 </body>
 </html>

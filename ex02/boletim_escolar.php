@@ -46,5 +46,6 @@
     }
     ?>
     <a href="http://localhost/forms/ex01/">Voltar para o exercício anterior</a>
+    <a href="http://localhost/forms/">Voltar para a página inicial</a>
 </body>
 </html>
